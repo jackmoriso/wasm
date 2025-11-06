@@ -2,13 +2,14 @@
 name = "simple-counter"
 version = "0.1.0"
 edition = "2021"
+resolver = "2"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-cosmwasm-std = "1.5"
-cosmwasm-schema = "1.5"
+cosmwasm-std = "=1.2.8"
+cosmwasm-schema = "=1.2.8"
 schemars = "0.8"
 serde = { version = "1.0", default-features = false, features = ["derive"] }
 

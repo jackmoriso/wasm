@@ -24,13 +24,15 @@ https://github.com/jackmoriso/wasm
 
 ### 2. Commit hash
 ```
-ee837a238bf3d99f13607ad13bf0fab3d9bc1aaf
+5263dd45c387ffe80a0b6dcb06a820687722e3a8
 ```
 
 验证命令（确认当前 commit）:
 ```bash
 git rev-parse HEAD
 ```
+
+**注意**: 使用最新的 commit，已修复 WASM 兼容性问题
 
 ### 3. Package name
 ```

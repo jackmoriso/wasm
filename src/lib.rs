@@ -1,5 +1,5 @@
 use cosmwasm_std::{
-    entry_point, to_json_binary, Binary, Deps, DepsMut, Env, MessageInfo, Response, StdResult,
+    entry_point, to_binary, Binary, Deps, DepsMut, Env, MessageInfo, Response, StdResult,
 };
 use serde::{Deserialize, Serialize};
 
@@ -68,7 +68,7 @@ pub fn query(deps: Deps, _env: Env, msg: QueryMsg) -> StdResult<Binary> {
     match msg {
         QueryMsg::GetCount {} => {
             let count = get_count(deps)?;
-            to_json_binary(&CountResponse { count })
+            to_binary(&CountResponse { count })
         }
     }
 }
