@@ -7,8 +7,8 @@ edition = "2021"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-cosmwasm-std = "2.1.4"
-cosmwasm-schema = "2.1.4"
+cosmwasm-std = "1.5"
+cosmwasm-schema = "1.5"
 schemars = "0.8"
 serde = { version = "1.0", default-features = false, features = ["derive"] }
 
