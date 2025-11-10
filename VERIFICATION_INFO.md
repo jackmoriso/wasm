@@ -21,7 +21,7 @@ https://github.com/jackmoriso/wasm
 
 ### Commit Hash
 ```
-584993d4aaa6ead3f296d6528e859815a49d87bc
+ca4e14b03aa585ca81f61ab462e99aae8fb89add
 ```
 
 ### Package Name
@@ -41,7 +41,7 @@ cosmwasm/optimizer:0.17.0
 2. Click on "Verify & publish source code"
 3. Fill in the form with the information above:
    - **GitHub repository URL**: `https://github.com/jackmoriso/wasm`
-   - **Commit hash**: `584993d4aaa6ead3f296d6528e859815a49d87bc`
+   - **Commit hash**: `ca4e14b03aa585ca81f61ab462e99aae8fb89add`
    - **Package name**: `simple-counter`
    - **Compiler version**: Select `cosmwasm/optimizer:0.17.0` from dropdown or input it
 4. Click "Verify & publish"
@@ -64,7 +64,7 @@ To verify locally that the build is reproducible:
 # Clone the repo at the specific commit
 git clone https://github.com/jackmoriso/wasm
 cd wasm
-git checkout 584993d4aaa6ead3f296d6528e859815a49d87bc
+git checkout ca4e14b03aa585ca81f61ab462e99aae8fb89add
 
 # Build with the same optimizer
 docker run --rm -v "$(pwd)":/code \

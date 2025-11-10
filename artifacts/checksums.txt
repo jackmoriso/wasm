@@ -1,1 +1,1 @@
-0edb440a240bc5d80dbfabc1153c674d67414cf2b513ba17a9bce530d4d8b274  simple_counter.wasm
+1e6de1aa8d66f7e71c4fd17ffedddee365fbd3f6b77095b984260cf03d2087df  simple_counter.wasm
