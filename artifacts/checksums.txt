@@ -1,0 +1,1 @@
+0edb440a240bc5d80dbfabc1153c674d67414cf2b513ba17a9bce530d4d8b274  simple_counter.wasm

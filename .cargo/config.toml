@@ -1,7 +1,9 @@
 [target.wasm32-unknown-unknown]
 rustflags = [
   "-C", "link-arg=-s",
-  "-C", "link-arg=--export-table",
+  "-C", "target-feature=-bulk-memory",
+  "-C", "target-feature=-sign-ext",
+  "-C", "target-feature=-reference-types",
 ]
 
 [build]
